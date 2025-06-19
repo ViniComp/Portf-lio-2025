@@ -24,6 +24,7 @@ header interface {
 }
 .text-custom {
   color: white;
+  font-family: "Fira Code", monospace;
 }
 
 section {
@@ -80,4 +81,44 @@ section {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23ff7b00' viewBox='0 0 16 16'%3E%3Cpath d='M4.646 1.354a.5.5 0 0 1 .708 0l6 6.354a.5.5 0 0 1 0 .707l-6 6.354a.5.5 0 1 1-.708-.707L10.293 8 4.646 2.061a.5.5 0 0 1 0-.707z'/%3E%3C/svg%3E");
   background-size: 100% 100%;
   filter: none;
+}
+#sobre-mim {
+  height: 480px;
+  color: #fff;
+  font-family: "Fira Code", monospace;
+  text-align: justify;
+}
+.name-custom {
+  color: #ff7b00;
+  display: block;
+  line-height: 30px;
+  font-size: 35px;
+  font-weight: 20px;
+  word-spacing: -10px;
+}
+.saudacoes {
+  font-size: 35px;
+}
+.formacao {
+  line-height: 40px;
+}
+.btn-social button {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: none;
+  background-color: #ff7b00;
+  font-size: 25px;
+  cursor: pointer;
+  margin: 0 2px;
+  transition: transform 0.5s ease;
+}
+.btn-social button:hover {
+  transform: rotate(360deg);
+  background-color: rgb(3, 3, 3);
+  color: #fff;
+}
+.borda {
+  padding: 20px;
+  background: linear-gradient(to top, rgba(3, 3, 3, 0.137), rgb(17, 17, 17));
 }
