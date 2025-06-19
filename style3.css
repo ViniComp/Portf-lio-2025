@@ -63,3 +63,21 @@ section {
     border-color: #fff;
   }
 }
+.carousel-indicators {
+  bottom: -40px;
+}
+.carousel-indicators .active {
+  background-color: #ff7b00;
+}
+
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23ff7b00' viewBox='0 0 16 16'%3E%3Cpath d='M11.354 1.354a.5.5 0 0 1 0 .707L5.707 8l5.647 5.939a.5.5 0 0 1-.708.707l-6-6.354a.5.5 0 0 1 0-.707l6-6.354a.5.5 0 0 1 .708 0z'/%3E%3C/svg%3E");
+  background-size: 100% 100%;
+  filter: none;
+}
+
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23ff7b00' viewBox='0 0 16 16'%3E%3Cpath d='M4.646 1.354a.5.5 0 0 1 .708 0l6 6.354a.5.5 0 0 1 0 .707l-6 6.354a.5.5 0 1 1-.708-.707L10.293 8 4.646 2.061a.5.5 0 0 1 0-.707z'/%3E%3C/svg%3E");
+  background-size: 100% 100%;
+  filter: none;
+}
